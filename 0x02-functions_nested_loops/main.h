@@ -1,0 +1,1 @@
+int putchat(char n);
