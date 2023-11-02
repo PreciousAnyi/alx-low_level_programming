@@ -42,15 +42,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		result[i] = s1[i];
 		i++;
 	}
-	/*
-	 * copy s2 to result
-	 */
 	while (i < result_length)
 		result[i++] = s2[j++];
-	/*
-	 * add null terminator
-	 */
 	result[i] = '\0';
-
 	return (result);
 }
