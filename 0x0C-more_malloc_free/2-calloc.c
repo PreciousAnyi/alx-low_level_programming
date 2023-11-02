@@ -3,8 +3,8 @@
 /**
  * *_memset - sets memory to 0
  * @s: pointer
- * @n: value to set in memory
- * @size: bytes of element
+ * @b: value to set in memory
+ * @n: bytes of element
  *
  * Return: returns a pointer
  */
